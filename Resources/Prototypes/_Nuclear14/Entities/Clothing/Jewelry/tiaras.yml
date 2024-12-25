@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingJewelryTiaraBase
+  name: a tiara
+  abstract: true
+  description: now you can live all your pretty princess dreams!
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Jewelry/goldtiara.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Jewelry/goldtiara.rsi
+
+- type: entity
+  parent: N14ClothingJewelryTiaraBase
+  id: N14ClothingJewelryGoldTiara
+  name: a golden tiara
+  description: only for the richest of people.

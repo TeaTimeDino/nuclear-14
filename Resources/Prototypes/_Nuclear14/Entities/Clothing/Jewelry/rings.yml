@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: N14ClothingJewelryRingBase
+  name: a ring
+  description: a rather simple ring, nothing.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Jewelry/goldring.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Jewelry/goldring.rsi
+
+- type: entity
+  parent: N14ClothingJewelryRingBase
+  id: N14ClothingJewelryGoldRing
+  name: a golden ring
+  description: a shiny golden ring, probably worth a pretty penny.

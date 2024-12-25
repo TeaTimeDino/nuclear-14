@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingJewelryEaringBase
+  name: a pair of earings
+  abstract: true
+  description: they glisten in the sun.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Jewelry/goldearings.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Jewelry/goldearings.rsi
+
+- type: entity
+  parent: N14ClothingJewelryEaringBase
+  id: N14ClothingJewelryGoldEarings
+  name: a pair of golden earings
+  description: a pair of diamonds encased in gold.
