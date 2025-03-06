@@ -81,11 +81,14 @@
       - N14TrainingSword
       - N14LongSword
       - N14Bola
+<<<<<<< HEAD
       # Blueprints
       - N14WeaponLaserRevolverBlueprint
       - N14WeaponLaserRifleMakeshiftBlueprint
       - N14WeaponRifle556PipeBlueprint
       - N14WeaponSniper50PipeBlueprint
+=======
+>>>>>>> cb478b958019bccebc5b37fca4a3765db01208b1
 
 - type: entity
   parent: N14WorkbenchBase

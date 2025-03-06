@@ -2,7 +2,11 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
+<<<<<<< HEAD
         <TargetFramework>net9.0</TargetFramework>
+=======
+        <TargetFramework>net8.0</TargetFramework>
+>>>>>>> cb478b958019bccebc5b37fca4a3765db01208b1
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
       <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
