@@ -125,3 +125,34 @@
     Radiation: 0.2
     Asphyxiation: 0.1
     Bloodloss: 0.8
+
+#Chem modifiers
+- type: damageModifierSet
+  id: Curatide
+  coefficients: 
+    Radiation: 0.95 #This is a multiplier so it does 5% reduction
+ 
+- type: damageModifierSet
+  id: Puratide
+  coefficients:
+    Poison: 0.95
+ 
+- type: damageModifierSet
+  id: Sealatide
+  coefficients:
+    Heat: 0.95
+ 
+- type: damageModifierSet
+  id: Harnitide
+  coefficients:
+    Cold: 0.95
+ 
+- type: damageModifierSet
+  id: Shelitide
+  coefficients:
+    Piercing: 0.95
+ 
+- type: damageModifierSet
+  id: Boltide
+  coefficients:
+    Blunt: 0.95
