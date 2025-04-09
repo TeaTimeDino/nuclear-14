@@ -33,6 +33,6 @@ using Content.Server.Damage.Components.Reduction;
          buffComp.Modifiers.Remove(component.HeatDamageProtectionModifierSetId);
          // if the dict is empty now, remove the buff component
          if (buffComp.Modifiers.Count == 0)
-             RemComp<DamageProtectionBuffComponent>(uid);
+             RemComp<DamageProtectionBuffComponent>(uidHeat);
      }
  }
