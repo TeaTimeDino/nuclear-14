@@ -665,9 +665,11 @@
         visualType: Medium
         messages: [ "frigmid-effect-temperature-adjusting" ]
         probability: 0.2
-      - !type:ReagentThreshold #uniformed OD
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold #uniform this OD
           min: 15
-          damage:
+        damage:
           types:
             Shock: 1
 
