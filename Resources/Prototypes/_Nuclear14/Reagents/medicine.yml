@@ -546,7 +546,7 @@
           types:
             Heat: -1.5
             Shock: -1.5
-            Cold: -1 .5
+            Cold: -1.5
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold #Uniform OD is 15 for burns
