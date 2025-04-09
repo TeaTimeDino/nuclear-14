@@ -1013,12 +1013,3 @@
       - !type:AdjustReagent
         reagent: CazadorVenom
         amount: -2
-      - !type:GenericStatusEffect #Other effects
-        key: Stun
-        time: 0.75
-        type: Remove
-      - !type:GenericStatusEffect
-        key: KnockedDown
-        time: 0.75
-        type: Remove
-      - !type: ChemVomit #For effect
